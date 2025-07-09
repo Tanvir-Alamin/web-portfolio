@@ -25,6 +25,11 @@ nav ul li{
     list-style: none;
     margin-right: 50px;
 }
+.header{
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 .btn{
     border-radius:5px ;
     background-color: #FD6E0A;
@@ -47,4 +52,108 @@ nav ul{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0   38px 0 286px;
+}
+.banner-greetings{
+    font-weight: 600px;
+    font-size: 45px;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.dis{
+    color: #757575;
+    font-size: 18px;
+}
+.profile-pic{
+    width: 584px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 0 0 6px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-dis{
+    color: #757575;
+    font-size: 18px;
+}
+.back-bg{
+    background-color: #FFF8F3;
+}
+.about{
+    border-radius: 10px;
+    width: 1140px;
+    height: 550px;
+    margin: 92px auto;
+    text-align: center;
+    padding: 131px 156px;
+
+}
+.about-item{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}
+.item-dis{
+    font-weight: bold;
+}
+.skill-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.skill-dis{
+    color: #757575;
+    font-size: 18px;
+}
+.skill-head{
+    font-weight: bold;
+    font-size: 20px;
+    color: #181818;
+}
+.skill-dis{
+    font-size: 16px;
+    color: #757575;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.skill-container div{
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 377px;
+    width: 267px;
+    padding: 33px;
+   
+}
+.skill-dis-1{
+    width: 835px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.skill-container div:hover{
+    box-shadow: 10px 10px 35px #2c2a2a;
+    padding: 34px;
 }
